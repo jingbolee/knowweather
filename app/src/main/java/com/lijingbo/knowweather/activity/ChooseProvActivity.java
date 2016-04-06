@@ -51,7 +51,6 @@ public class ChooseProvActivity extends Activity {
                 Intent intent=new Intent(ChooseProvActivity.this,ChooseDistintActivity.class);
                 intent.putExtra("provName",provName);
                 startActivity(intent);
-                finish();
             }
         });
     }

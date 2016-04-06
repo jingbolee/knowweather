@@ -59,7 +59,6 @@ public class ChooseDistintActivity extends Activity {
                 intent.putExtra("provName",mProvName);
                 intent.putExtra("distineName",distineName);
                 startActivity(intent);
-                finish();
             }
         });
     }
